@@ -4,25 +4,6 @@ This repository presents a hybrid deep learning approach for predicting short-te
 
 ---
 
-## 📁 Project Structure
-
-```
-📦your-repo/
-│
-├── 📂data/
-│   └── AEP_hourly.csv               # Dataset
-│
-├── 📂notebooks/
-│   └── energy_forecasting.ipynb     # Jupyter Notebook with EDA and model training
-│
-├── 📊 forecast_plot.png             # Actual vs predicted plot
-│
-├── requirements.txt                 # List of required Python packages
-└── README.md                        # This file
-```
-
----
-
 ## 📊 Dataset
 
 - **Name**: AEP Hourly Energy Consumption
@@ -51,25 +32,6 @@ This repository presents a hybrid deep learning approach for predicting short-te
 | GRU              | 553.22  | 436.92  | 2.98%  |
 | **Proposed Model** | **504.62** | **388.74** | **2.14%** |
 
----
-
-## 🚀 How to Run
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/yourusername/power-forecast-lstm-ae.git
-cd power-forecast-lstm-ae
-```
-
-### 2. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Run the notebook
-Open and execute `notebooks/energy_forecasting.ipynb` in Jupyter or Google Colab.
-
----
 
 ## 📦 Requirements
 
@@ -80,13 +42,6 @@ Open and execute `notebooks/energy_forecasting.ipynb` in Jupyter or Google Colab
 - scikit-learn
 - tensorflow / keras
 
----
-
-## 📜 License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more information.
-
----
 
 ## 🌟 Acknowledgments
 
